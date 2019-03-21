@@ -1,0 +1,34 @@
+{
+  "name": "aws-secrets-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "tsc && mocha dist/**/*.spec.js",
+    "lint": "eslint src --ext ts",
+    "tsc": "tsc"
+  },
+  "author": "Scott McCain <scott.mccain@gmail.com> (bitwisemobile.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@types/underscore": "^1.8.12",
+    "aws-sdk": "^2.413.0",
+    "help": "^3.0.2",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/lru-cache": "^5.1.0",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.10.4",
+    "eslint": "^5.15.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "lru-cache": "^5.1.1",
+    "mocha": "^6.0.2",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.3.3333",
+    "typescript-eslint-parser": "^22.0.0"
+  }
+}
